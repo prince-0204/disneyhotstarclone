@@ -1,0 +1,82 @@
+/* Tried to make the background image respomsve but failed */
+/* @media (max-width: 1000px){
+    .Landing{
+    background-size:'contain', /*ensures that background image fits and do not get cropped
+    }
+} */
+.Landing{
+    background: url(../public/login-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;       /*keeps background fixed with scrliing */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.loginBar{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 8%;
+    width:100%;
+    /* border:3px solid white; */
+    margin: 0px;
+    background-color: black;
+}
+.loginBaritem{
+    margin-right: 10px;
+}
+.logo img{
+    height: 30px;
+}
+.LoginButton{
+    margin-right: 3px;
+    margin-left: auto;          /*It will send the logo to the left end*/
+    /* border:3px solid pink; */
+}
+.LoginButton button{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px whitesmoke;  /* horizontal vertical blur spread and color property*/
+    height:30px;
+    width: 75px;
+}
+.CenterPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92%;
+    color:white;
+}
+.centerPartLogos{
+    display: flex;
+    width: 580px;
+    justify-content: space-evenly; 
+}
+.CenterPartItem{
+    margin: 10px;
+}
+.CenterPart button{
+    width: 580px;
+    height:40px;
+    border-radius: 5px;
+    background-color: rgb(67, 67, 243);
+    color: white;
+    font-size: large;
+}
+.CenterPartDescription{
+    width: 580px;
+    font-size: small;
+}
+.CenterPartItem{
+    margin: 0px;
+    margin-top: 15px;
+}
+.plus{
+    margin-top: 30px;
+}

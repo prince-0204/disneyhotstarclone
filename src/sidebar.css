@@ -1,0 +1,30 @@
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height : 100%;  /*Full-height: remove this if you want "auto" height */
+    width: 100px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    z-index: 1; /* Stay on top */
+    background-color: rgba(12,11,11,0.2); /*Black*/
+    padding-top: 20px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.navitems{
+    margin: 15px;
+}
+.navitems:hover{
+    scale: 1.5;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}

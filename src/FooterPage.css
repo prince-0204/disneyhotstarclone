@@ -1,0 +1,46 @@
+.FooterPage{
+    text-align: left;
+    display: grid;
+    grid-template-areas: 
+    'company viewWebsite Needhelp ConnectWithUs'
+    'TermsCondition TermsCondition TermsCondition Playstoreicons'
+    ;
+}
+.FooterPage a{
+    color: rgb(175, 170, 170);
+}
+/* Details section */
+.Company{
+    grid-area: company;
+    padding-left: 104px;
+}
+.viewWebsite{
+    grid-area: viewWebsite;
+}
+.Needhelp{
+    grid-area: Needhelp;
+}
+.ConnectWithUs{
+    grid-area: ConnectWithUs;
+}
+.ConnectWithUs img{
+    margin: 8px;
+    width: 28px;
+    margin-top: 0;
+    cursor: pointer;
+}
+/* icons section */
+.TermsCondition{
+    grid-area: TermsCondition;
+    padding-left: 104px;
+    margin-top: 2.5rem;
+}
+.Playstoreicons{
+    grid-area: Playstoreicons;
+    margin-top: 2.5rem;
+}
+.Playstoreicons img{
+    width: 194px;
+    margin-bottom: 17px;
+    margin-right: 10px;
+}

@@ -1,0 +1,48 @@
+.MovieScreen{
+    content: "";
+    background: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09A0617D43282F1A4FA1A97DF6159B4263A8DEB9679A007B61D5E5D6E5D0A2DD/scale?width=1440&aspectRatio=1.78&format=jpeg") no-repeat center center/cover;
+    position: fixed;            /*Due to this the background image remains fixed even when we scroll*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 1;
+
+    /*background-attachment: fixed;       /*keeps background fixed with scrliing  */
+}
+.MainScreenContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 92%;
+    color:white;
+}
+.MovieName{
+    margin-left: 4rem;
+}
+.MovieButtons{
+    padding: 15px 27px;
+}
+#Play-btn{
+    background-color: white;
+    color: black;
+    width: 101px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+#Trailer-btn{
+    background-color: rgb(80 77 77 / 40%);
+    color: white;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 15px;
+}
+.Movie-Desc{
+    text-align: left;
+    margin-left: 30px;
+}

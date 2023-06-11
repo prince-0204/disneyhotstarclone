@@ -1,0 +1,46 @@
+.Advertisement
+{
+    padding: 5px;
+    padding-left: 100px;
+    
+}
+.Banner{
+    margin-right: 9rem;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3b3a3a75;
+    overflow:hidden;
+}
+.BannerPhoto{
+    width: 65%;
+}
+.BannerPhoto img{
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+}
+.Bannerdescription{
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 30%;
+    color: white;
+}
+.Branding{   
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.Subscribebutton{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Subscribebutton button{
+    width: 204px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: #49484887;
+    color: white;
+    font-size: x-large;
+}

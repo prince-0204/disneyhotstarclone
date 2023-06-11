@@ -1,0 +1,61 @@
+.TrailerPreview{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding: 20px 0;
+    overflow-x: hidden;  /*With this the content inside this element will remain inside it and gets hidden*/
+    margin-top: 80px;
+}
+.Trailer-list{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+.trailer-slider{
+    flex: 0 0 auto; /*flex-grow flex-shrink flex-basis*/
+    margin-right: 30px;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 97%;
+    height: 100%;
+    left: 35px;
+    transition: 1s;
+    overflow: hidden;
+}
+.trailer-slider img{
+    width: 70%;
+    min-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+}
+.slider-content{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(to right, #030b17 85%, #0c111b00);
+    color: white;
+}
+.movie-title{
+    padding-left: 50px;
+    text-transform: capitalize;
+    margin-top: 80px;
+}
+.movie-subtitle{
+    padding-left: 50px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 65px;
+}
+.trailer-desc{
+    width: 80%;
+    line-height: 30px;
+    padding-left: 50px;
+    text-align: left;
+    margin-top: 30px;
+    opacity: 0.8;
+}

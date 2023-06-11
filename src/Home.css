@@ -1,0 +1,38 @@
+/* @media (max-width: 1000px){
+    .Home{
+    background-size:'contain', /*ensures that background image fits and do not get cropped
+    }
+} */
+.Home{
+    background:url("../public/home-background.png");
+    background-repeat: repeat;  /*I am setting repeat because when width becomes greater than the width of image the it was creating problem with no-repeat*/
+    background-position:  center center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    color: white;
+}
+.Logo{
+    display: flex;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position:fixed;
+}
+.Logo img{
+    margin-top: 15px;
+}
+.LogoContent{
+    margin:8px;
+}
+.LogoContent button{
+    border-radius: 15px;
+    background-color: rgba(244,206, 1,0.3);
+    color: #ffc127;
+}
+/* .content{
+    border: 6px solid gray;
+} */
